@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+a{
+    color: white;
+}
+
+#pri{
+    color:red
+}
+
+#seg{
+    color:orange
+}
+
+#ter{
+    color:yellow
+}
+
+#qua{
+    color:lime
+}
+
+#qui{
+    color:blue
+}
+
+#sex{
+    color:purple
+}
+
+#set{
+    color:violet
+}
+
+.par{
+    color:lime
+}
+
+.impar{
+    color:red;
+}

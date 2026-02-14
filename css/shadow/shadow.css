@@ -1,0 +1,24 @@
+body{
+    background-color:rgb(67, 75, 83);
+}
+
+h1{
+    text-shadow: -3px -3px 5px red, 3px 3px 5px cyan;  /*valor horizontal e vertical, 3º valor é blur, pode colocar mais de uma sombra se separar com virgula, - vai pra esquerda, + a direita*/
+}
+
+#caixa1{
+    width: 100px;
+    height: 100px;
+    background-color: lightskyblue;
+    box-shadow: 3px 3px 5px;
+}
+
+img{
+    box-shadow: 3px 3px 5px red, -3px -3px 5px gold;
+    transition: transform 0.5s ease;  /*faz a transição ser mais suava, diminue a velocidade, sem isso vai automatico*/
+}
+
+img:hover{  /*tag/id/classe:hover, altera quando o mause passa em cima*/
+    transform: scale(1.2);  /*aumenta o taanho*/
+    cursor: pointer;  /*muda o tipo do ponteiro*/
+}

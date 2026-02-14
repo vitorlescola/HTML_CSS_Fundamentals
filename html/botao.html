@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botão</title>
+</head>
+<body>
+    <a href="https://media.tenor.com/O5En5nELi_UAAAAj/fnaf-foxy-jumpscare.gif">
+        <button style="font-size: 25px; background-color: lightgrey; border-radius: 23px;">Click me!</button>
+    </a>
+
+    <button onclick="mudarTexto()" style="font-size: 25px; background-color: lightgrey; border-radius: 23px;">click para mudar o texto</button>
+
+    <p id="texto">Texto original clique no segundo botão para mudar este texto!</p>
+
+    <script>
+        function mudarTexto(){
+            document.getElementById("texto").innerHTML="Novo texto, o texto foi mudado apos apertar o segundo botão!" 
+            /*var elemento = document.getElementById("texto");
+        
+        if (elemento.innerHTML === "Texto original") {
+            elemento.innerHTML = "Novo texto!";
+        } else {
+            elemento.innerHTML = "Texto original";
+        }*/
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+body{
+    border: 3px solid;
+    display:flow-root;  /*Com o float as vezes a imagem pode sair do border, isto faz com que ela não saia*/
+}
+
+#img1{
+    float: left;  /*remove aquele espaço*/
+    margin-right: 10px;  /*adiciona em pouco de espaço entre a imagem e o texto para não ficar grudado*/
+}
+
+#img2{
+    float: right;
+    
+}

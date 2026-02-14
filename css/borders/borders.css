@@ -1,0 +1,26 @@
+/*@font-face{
+
+    src: url(link);    normalmente cria uma pasta com a fonte dentro, chama ela aqui
+    font-family:font;  nomeia ela aqui, e dai pode usar em qualquer lugar do código
+
+}*/
+
+body{
+    background-color:slategrey
+}
+
+h1{
+    border-style:solid;  /*tipo da borda*/
+    border-width: 3px;  /*grossora*/
+    border-color:rgb(33, 31, 31);
+    /*pode ser simplificado com border: 3px solic black;*/
+    border-radius: 10px;
+}
+
+p{
+    border-bottom:5px solid red;
+    border-left:5px dashed blue;
+    border-right:5px dotted lime;
+    border-top:5px groove yellow;
+    padding: 10px;
+}

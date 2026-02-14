@@ -1,0 +1,16 @@
+.container{
+    background-color: aquamarine;
+    height: 100vh;  /*container ocupa 100% da altura possivel*/
+}
+
+.caixa{
+    background-color: whitesmoke;
+    border: 2px solid;
+    height: auto;  /*por padrão é auto, ajusta automaticamente depedendo do tamanho da tela*/
+    width: 25%;  /*ocupa 25% do tamanho da tela*/
+    padding: 25px;  /*espaço entre o conteudo e a borda*/
+    box-sizing: border-box;  /*ignora padding e border quando calcular o height e width*/
+    float: left;
+    text-align: center;
+    /*max/min-height/widht limita o tamanho do height e width*/
+}

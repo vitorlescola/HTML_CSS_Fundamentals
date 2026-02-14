@@ -1,0 +1,25 @@
+div{
+    border:2px solid;
+    height: 40px;
+}
+
+#div1{
+    overflow: visible;  /*nada acontece, deixa o overflow visivel*/
+}
+
+#div2{
+    overflow: hidden;  /*esconde o overflow (ainda existe, só não é visivel)*/
+}
+
+#div3{
+    overflow: clip;  /*semelhar ao hidden*/
+    overflow-clip-margin: 5px;  /*usado junto com esse comando, que permite controlar quanto o overflow apareçe*/
+}
+
+#div4{
+    overflow: scroll;  /*da para rodar o mause para ver todo*/
+}
+
+#div5{
+    overflow: auto;  /*semelhar ao scroll, porem só aparece a barra se precisa dela*/
+}

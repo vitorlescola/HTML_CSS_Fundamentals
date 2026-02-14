@@ -1,0 +1,36 @@
+.caixa{
+    width: 200px;
+    height: 200px;
+    background-color:yellow;
+    float: left;
+    border: 2px solid;
+}
+
+#um{
+    position: relative;  /*posição relativa a onde ela estaria por padrão*/
+    top: 100px;
+    right: 100px;
+}
+
+#dois{
+    position: fixed;  /*fixado no mesmo local na tela*/
+}
+
+#tres{
+    position: static;  /*Parada*/
+}
+
+#mini{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;  /*posição relativa ao seu ancestral mais proximo*/
+}
+
+#quatro{
+    position: sticky;  /*relativa a barra, semlhar ao fixed porem o sticky só começa a mexer quando ia passar dele*/
+}
+
+#cinco{
+    position: static;  /*parada*/
+}

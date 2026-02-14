@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1280px-HTML5_logo_and_wordmark.svg.png">
+</head>
+<body>
+    <form action="null" method="post" enctype="multipart/form-data">  <!--action é para onde vai mandar o formulario, method é post (informação sensivel, como sehnha) e get (informação não sensivel), enctype é se mandar um arquivo grande, como uma imagem-->
+        <label for="usuario">Usuario</label>
+        <input type="text" id="usuario" placeholder="Usuario" required>
+        <br>
+
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" placeholder="Senha" required minlength="6" maxlength="20">
+        <br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Email@gmail.com" required>
+        <br>
+
+        <label for="cell">Numero</label>
+        <input type="tel" id="cell" placeholder="11 1111-1111" pattern="[0-9]{2} [0-9]{4}-[0-9]{4}">  <!--pattern é verificação, podendo colocar o padrão exato, sendo [digitos permitidos]{quantidade} separação -->
+        <br>
+
+        <label for="nasc">Nascimento</label>
+        <input type="date" id="nasc">
+        <br>
+
+        <label for="quant">Numero</label>
+        <input type="number" id="quant" min="0" max="99">  <!--min é max é o valor minimo e maximo do numero-->
+        <br>
+
+        <label for="escolha">Escolha</label>
+        <label for="um">1</label>
+        <input type="radio" id="um" name="escolha">  <!--name faz fazer parte do mesmo grupo, neste caso só deixa selecionar um deles-->
+        <label  for="dois">2</label>
+        <input type="radio" id="dois" name="escolha">
+        <label for="tres">3</label>
+        <input type="radio" id="tres" name="escolha">
+        <br>
+
+        <label for="tipo">Tipo</label>
+        <select id="tipo">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+        </select>
+        <br>
+
+        <label for="concordo">Concordo</label>
+        <input type="checkbox" id="concordo" required>
+        <br>
+
+        <label for="texto">Texto</label>
+        <textarea id="texto"></textarea>  <!--rows="" e cols="" para mudar o tamanho-->
+        <br>
+
+        <label for="arquivo">Arquivo</label>
+        <input type="file" id="arquivo" accept="image/png, image/jpeg">  <!--por padrão qualquer arquivo é aceito, accept é para especificar-->
+        <br>
+
+        <input type="reset" value="Resetar">  <!--value muda o nome-->
+        <input type="submit" value="Enviar">
+    </form>  
+</body>
+</html>

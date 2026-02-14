@@ -1,0 +1,29 @@
+#div1{
+    background-color: red;
+    width: 100px;  /*é possivel limitar o tamanho com width e height*/
+    height: 100px;  /*no span witdh e height não são aplicavies*/
+    display: block;  /*nada aconteçe pois o display do div por padrão já é block*/
+    /*display:none, essencialmente faz como se o elemento não existisse (mesmo que ainde existe)*/ 
+}
+
+#span1{
+    background-color: lime;
+    display: block;  /*porem no span é possivel alterar o display para block*/
+    width: 100px;  /*fazendo width e height aplicaveis*/
+    height: 100px;
+}
+
+#div2{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    display: inline-block;  /*semelhar ao inline, porem width e height são aplicaveis*/
+}
+
+#span2{
+    background-color: lime;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    /*visibility: hidden; esconde o elemento (diferente do display:none pois no hidden ele ainda ocupa espaço)*/
+}

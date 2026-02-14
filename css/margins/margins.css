@@ -1,0 +1,23 @@
+body{
+    margin:0px;  /*zera a margin entre o elemento e o canto da tela*/
+}
+
+.caixa{
+    border:5px solid;
+    font-size: 5em; /*em é o tamanho padra, 1= normal,2=2x vezes o tamanho...*/
+    width: 250px;  /*faz não ir até o final da tela*/
+    height: 250px;
+}
+
+#um{
+    background-color: red;
+    margin-top: 50px;  /*adiciona 50 pixels ao topo da caixa*/
+    margin-bottom: 50px; /*adiciona 50 pixels ao "chao" da caixa*/
+    /*mesma padrao com left e right, podendo aplicar igualmente ao mesmo tempo com margin:*/
+    /*margin-left:auto sempre vai fazer com que a caixa esteja a esquerda maxima da pagina, margin:auto faz com que ela sempre esteja ao centro*/
+}
+
+#dois{
+    background-color: blue;
+    margin: auto;
+}
