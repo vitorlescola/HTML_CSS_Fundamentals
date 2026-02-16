@@ -1,0 +1,11 @@
+body{
+    background-image: url(https://www.kzooparks.org/files/sharedassets/parks/v/2/park-images/verburg-park.jpg?dimension=pageimagefullwidth&w=1140);  /*se a imagem for menor que a tela ela repete por padra*/
+    background-repeat: no-repeat;  /*remove a repetição*/
+    background-position: center;  /*centraliza a imagem*/
+    background-attachment: fixed;  /*faz com que a imagem não move com a tela*/
+    background-size: cover;  /*core a tela inteira*/
+}
+
+h1{
+    text-align: center;
+}

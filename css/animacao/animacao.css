@@ -1,0 +1,53 @@
+#caixa{
+    width: 200px;
+    height: 200px;
+    font-size: 10em;
+    text-align: center;
+    background-color: red;
+    animation-name:cor;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;  /*animation-direct (pode inverter e alternar a aniimação), animation-playstate (pode parar), animation-timing-function (quandas etapas para fazer)*/
+}
+
+#caixa:active{
+    animation-name:brilhar;
+    animation-duration: 2s;
+}
+
+@keyframes direita{  /*keyframes cria animações*/
+    to{transform: translateX(100%);}  /*para a direita*/
+}
+
+@keyframes esquerda{ 
+    from{transform: translateX(100%);}  /*para a esquerda*/
+}
+
+@keyframes cima{
+    from{transform: translateY(100%);}
+}
+
+@keyframes baixo{
+    to{transform: translateY(100%);}
+}
+
+@keyframes gira{
+    100%{transform: rotateX(360deg);}
+}
+
+@keyframes sumir{
+    50%{opacity: 0;}
+}
+
+@keyframes cor{
+    0%{background-color: red;}
+    20%{background-color: orange;}
+    40%{background-color: yellow;}
+    60%{background-color: lime;}
+    80%{background-color: cyan;}
+    90%{background-color: violet;}
+    100%{background-color: purple;}
+}
+
+@keyframes brilhar{
+    50%{box-shadow: 0px 0px 50px gold;}
+}

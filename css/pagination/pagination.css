@@ -1,0 +1,21 @@
+.paginas{
+    text-align: center;
+}
+
+.paginas a{
+    color: black;
+    text-decoration: none;  /*remove a linha em baixo dos links*/
+    padding: 8px 15px;  /*espaço entre os itens*/
+    display: inline-block;  /*para poder aditar o tamanho*/
+}
+
+.paginas a.atual{  /*na classe paginas ve os elementos a e altera os que são da classe atual*/
+    background-color: lime;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.paginas a:hover:not(.atual){  /*na classe paginas ve os elementos a e altera os que não são da classe atual*/
+    background-color: rgb(184, 182, 182);
+    border-radius: 20px;
+}

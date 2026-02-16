@@ -1,0 +1,70 @@
+button{
+    width: 50px;
+}
+
+button:hover{  /*Quando o mause passa em cima*/
+    font-size: 1.1em;
+    background-color: lime;
+    cursor: pointer;
+}
+
+button:active{
+    font-size: 1.1em;
+    background-color: red;
+}
+
+a:link{  /*Altere apenas o link*/
+    color: aqua;
+}
+
+a:hover{
+    color: blue;
+    font-size: 1.1em;
+}
+
+a:active{  /*Quando o mause esta clicado nele*/
+    font-size: 1.1em;
+    color:aquamarine
+}
+
+a:visited{  /*Por padrão quando um link é visitado ele fica roxo*/
+    font-size: 0.9em;
+}
+
+li:hover{
+    background-color: yellow;  /*Quando o mause passa em cima fica marcado*/
+}
+
+li:not(:hover){  /*Not faz o oposto, tudo que o mause não está em cima*/
+    background-color: rgb(184, 184, 178);
+}
+
+li:nth-child(8){  /*nth-child(N), o elemento do valor seleciona é alterado, tambem podendo usar odd, even e 3n para todo terceiro, 4n para todo quarto...*/
+    background-color: rgb(79, 81, 214);
+}
+
+#oi p{
+    background-color: blueviolet;
+    padding: 10px;
+    display: none;
+}
+
+#oi:hover p{
+    display: block;
+}
+
+#f{
+    display: inline;
+}
+
+#f img{
+    display: none;
+}
+
+#f button{
+    width: 100px;
+}
+
+#f:active img{
+    display: block;
+}

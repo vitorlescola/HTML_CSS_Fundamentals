@@ -1,0 +1,38 @@
+.container{
+    display: flex;  /*Coloca na mesma linha*/
+    flex-direction: row;  /*é row por padrão*/
+    justify-content: flex-start;  /*é o main axis, largura,horizontal, aixo X; é flex-start por padrão*/
+    align-items: flex-start;  /*é o cross axis, altura,vertical, aixo Y; é flex-start por padrão*/
+    /*flex-wrap: nowrap;
+    align-content: center;*/
+}
+
+body{
+    margin: 0px;
+    background-color: rgb(192, 184, 184);
+}
+
+.caixa{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 80px;
+}
+
+#caixa1{
+    background-color: rgb(17, 0, 255);
+    /*align-self (alinhamento do elemento dentro do container)*/
+}
+
+#caixa2{
+    background-color: #773e05
+}
+
+#caixa3{
+    background-color: red;
+}
+
+#caixa4{
+    background-color: white;
+}

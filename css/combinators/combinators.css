@@ -1,0 +1,19 @@
+#container{
+    border:2px solid;
+}
+
+#container p{  /*descendent, todo mundo dentro*/
+    background-color: lightsalmon;
+}
+
+#container>p{  /*child, só os diretamente dentro, todo child é descendent, mais nem todo descendent é child*/
+    background-color: goldenrod;
+}
+
+#container~p{  /*general sibling, p4 e p5 são siblings do div pois os dois são children do body (se eles tivessem dentro de um outro div não seriam selecionados)*/
+    background-color: lawngreen;
+}
+
+#container+p{  /*adjacent sibling, só o sibling ao lado*/
+    background-color: lavender;
+}

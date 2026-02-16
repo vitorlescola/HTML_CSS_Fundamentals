@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+}
+
+#caixa1{
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 9em;
+    text-align: center;
+    background-color: aqua;
+
+    transform: translate(500px,200px);  /*Muda a posição*/
+}
+
+#caixa2{
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 8em;
+    text-align: center;
+    background-color: rgb(84, 175, 175);
+    transform: rotateZ(50deg);
+}
+
+#caixa3{
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 9em;
+    text-align: center;
+    background-color: rgb(14, 100, 100);
+    transform: skewX(45deg);
+}

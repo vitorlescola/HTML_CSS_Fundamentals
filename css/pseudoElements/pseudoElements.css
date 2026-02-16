@@ -1,0 +1,35 @@
+h1::first-letter{
+    font-size: 2em;
+    font-style: italic;
+}
+
+p::first-line{
+    background-color: yellow;
+}
+
+p::selection{  /*Tudo que o mause esta selecionando, por padrao é azul*/
+    color: lime;
+    background-color: black;
+}
+
+#lista li::before{  /*Adiciona um elemento antes do elemento original*/
+    content: "#";
+}
+
+#elemento1::after{  /*Adiciona um elemento depois do elemento original*/
+    content: " 1º";
+}
+
+#elemento2::after{
+    content: " 2º";
+}
+
+#elemento3::after{
+    content: " 3º";
+}
+
+#lista li::marker{  /*substitui a bolinha da lista*/
+    content: "O ";
+    color: blue;
+    font-size: 1.2em;
+}

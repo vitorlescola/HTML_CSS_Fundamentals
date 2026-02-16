@@ -1,0 +1,22 @@
+.galeria{
+    display: inline-block;
+    border: 2px solid;
+    margin: 5px;
+    transition: 0.3s ease;
+    /*widht 300px*/
+}
+
+.galeria .descricao{
+    padding: 10px;
+    text-align: center;
+}
+
+.galeria:hover{
+    transform: scale(1.2);
+    margin: 35px;
+}
+
+.galeria img{
+    width: 300px;  /*100%*/
+    height: 300px;  /*auto*/
+}
