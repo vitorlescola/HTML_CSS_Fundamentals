@@ -1,0 +1,16 @@
+.nav{
+    background-color: rgb(136, 232, 200);
+}
+
+.nav h3{
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+.nav a:link, .nav a:visited{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 5px;
+}
