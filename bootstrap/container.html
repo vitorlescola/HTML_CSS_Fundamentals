@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Container</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="style.css">--> <!--Sempre coloca o bootstrap em cima para poder ser alterado pelo de baixo-->
+</head>
+<body>
+
+    <div class="container bg-secondary text-light"> <!--Container=cria o container(ocupa o espaço necessario), bg-secondary= bg é background-color e secondary é cinza, 
+                                                     text-light= text é color e light é branco-->
+        <h2>Titulo</h2>
+        <p>Texto Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi exercitationem, numquam distinctio voluptates nihil ipsa natus optio, a sed quisquam modi laudantium odio. Voluptates qui optio officiis veniam. Ullam, saepe.</p>
+    </div>
+
+    <div class="container-fluid bg-dark text-light"> <!--container-fluid cria um container que ocupa a largura total da tela, bg-dark é preto-->
+        <h2>container fuildo</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatibus amet sapiente perspiciatis et debitis doloribus laborum aliquid reiciendis alias molestiae, maxime consequatur corporis in praesentium exercitationem, placeat dignissimos maiores.</p>
+    </div>
+
+    <!--breakpoints controlam a responsividade, o container abaixo vai ser chamado quando a tela estiver no tamanho sm(small)(576px-767px)(celulares)-->
+    <div class="container-sm bg-success text-light">
+        <h2>Container small</h2>
+        <p>Para telas <span class="text-warning">pequenas</span> de celulares</p>
+    </div>
+
+    <div class="container-md bg-danger text-light">
+        <h2>Container md</h2>
+        <p>Para telas <span class="text-warning">medias</span> de tablets</p>
+    </div>
+
+    <div class="container-lg bg-primary text-light">
+        <h2>Container lg</h2>
+        <p>Para telas <span class="text-warning">largas</span> de pcs</p>
+    </div>
+
+    <div class="container">
+        <h1 class="text-sm-center">Texto sm vai para o canto depedendo do tamanho da tela</h1>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
